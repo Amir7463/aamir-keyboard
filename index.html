@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Key board</title>
+</head>
+<body>
+    <div id="keb">
+        <div class="kt">
+            <input class="btn" type="button" value="~">
+            <input class="btn" type="button" value="1">
+            <input class="btn" type="button" value="2">
+            <input class="btn" type="button" value="3">
+            <input class="btn" type="button" value="4">
+            <input class="btn" type="button" value="5">
+            <input class="btn" type="button" value="6">
+            <input class="btn" type="button" value="7">
+            <input class="btn" type="button" value="8">
+            <input class="btn" type="button" value="9">
+            <input class="btn" type="button" value="0">
+            <input class="btn" type="button" value="delete">
+        </div>
+        <div class="kt">
+            <input class="btn" type="button" value="Tab">
+            <input class="btn" type="button" value="Q">
+            <input class="btn" type="button" value="W">
+            <input class="btn" type="button" value="E">
+            <input class="btn" type="button" value="R">
+            <input class="btn" type="button" value="T">
+            <input class="btn" type="button" value="Y">
+            <input class="btn" type="button" value="U">
+            <input class="btn" type="button" value="I">
+            <input class="btn" type="button" value="O">
+            <input class="btn" type="button" value="P">
+            <input class="btn" type="button" value="\">
+
+        </div>
+
+        <div class="kt">
+            <input class="btn" type="button" value="caps">
+            <input class="btn" type="button" value="A">
+            <input class="btn" type="button" value="S">
+            <input class="btn" type="button" value="D">
+            <input class="btn" type="button" value="F">
+            <input class="btn" type="button" value="G">
+            <input class="btn" type="button" value="H">
+            <input class="btn" type="button" value="J">
+            <input class="btn" type="button" value="K">
+            <input class="btn" type="button" value="L">
+            <input id="ent" class="btn" type="button" value="Enter">
+        </div>
+
+        <div class="kt">
+            <input class="btn" type="button" value="Shift">
+            <input class="btn" type="button" value="Z">
+            <input class="btn" type="button" value="X">
+            <input class="btn" type="button" value="C">
+            <input class="btn" type="button" value="V">
+            <input class="btn" type="button" value="B">
+            <input class="btn" type="button" value="N">
+            <input class="btn" type="button" value="M">
+            <input class="btn" type="button" value="<">
+            <input class="btn" type="button" value=">">
+            <input id="sif" class="btn" type="button" value="shift">
+        </div>
+
+
+        <div class="kt">
+
+            <button class="btn"><i class="fa-solid fa-globe"></i></button>
+            <input class="btn" type="button" value="control">
+            <input class="btn" type="button" value="option">
+            <input class="btn" type="button" value="alt">
+            <input id="spc" class="btn" type="button" value="Space">
+            <input class="btn" type="button" value="alt">
+            <input class="btn" type="button" value="option">
+            <button id="myButton" onclick="changeColor()" class="btn"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="btn"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    
+    <script>
+        function changeColor() {
+            document.getElementById("myButton").style.backgroundColor = "blue";
+        }
+    </script>
+
+</body>
+</html>

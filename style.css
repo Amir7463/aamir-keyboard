@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(98, 197, 197);
+}
+
+#keb {
+    background-color: black;
+    height: 190px;
+    width: 740px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.kt {
+    padding: 4px;
+}
+
+.btn {
+    width: 57px;
+    height: 30px;
+    background-color: black;
+    color: rgb(89, 182, 182);
+    border: none;
+    box-shadow: 6px 6px 10px rgb(15, 14, 14);
+    cursor: pointer;
+}
+
+
+#ent {
+    width: 118px;
+}
+
+#sif {
+    width: 118px;
+}
+
+#spc {
+    width: 240px;
+}
